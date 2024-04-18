@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "tsx src/app.ts",
-    "test": "jest"
+    "test": "jest",
+    "golden-master:generate": "tsx src/golden-master/create-records.ts "
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
