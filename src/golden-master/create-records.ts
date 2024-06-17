@@ -5,7 +5,6 @@ import { persistRecords } from './persist-records'
 
 export function generateRecords() {
   const [count = 100] = process.argv.slice(2)
-  console.log("ARGS", count);
 
   const itemsList = generateItems(Number(count));
   const json: Record<string, any> = {};
