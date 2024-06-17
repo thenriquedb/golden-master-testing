@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsx src/app.ts",
     "test": "jest",
-    "golden-master:generate": "tsx src/golden-master/create-records.ts "
+    "golden-master:generate": "NODE_NO_WARNINGS=1 tsx src/golden-master/create-records.ts "
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
