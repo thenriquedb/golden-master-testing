@@ -18,10 +18,9 @@ function getRandomName() {
   return names[index];
 }
 
-
 export function generateItems(count: number = 10): Item[] {
   const set = new Set();
-  Array.from(Array(count).keys()).forEach(() => {
+  Array.from(Array(count + 1).keys()).forEach(() => {
     const name = getRandomName();
     const isSulfuras = name.includes("Sulfuras");
 
